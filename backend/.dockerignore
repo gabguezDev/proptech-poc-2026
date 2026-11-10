@@ -1,0 +1,19 @@
+# El venv local es de macOS y no sirve en la imagen de Linux.
+venv/
+# Entornos virtuales y cachés de Python.
+__pycache__/
+*.pyc
+.pytest_cache/
+# Los datos generados localmente NO viajan en la imagen: la base es PostgreSQL
+# (docker) y el catálogo de trabajo se siembra desde mock_properties.json.
+data/properties.json
+data/users.json
+data/settings.json
+data/feedback.json
+# Artefactos generados (modelos entrenados, métricas): se regeneran en la imagen.
+artifacts/
+# Contenedores no necesitan el historial de git.
+.git/
+.gitignore
+# La semilla del catálogo (data/mock_properties.json) SÍ se copia: es inmutable
+# y property_store la usa para sembrar la base vacía.
