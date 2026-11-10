@@ -1,0 +1,33 @@
+# --- Python / backend ---
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+backend/__pycache__/
+
+# Artefactos generados (modelos entrenados, métricas)
+backend/artifacts/
+
+# Datos locales de autenticación y configuración viva (contienen hashes)
+backend/data/users.json
+backend/data/settings.json
+# Catálogo de inmuebles editable (copia de trabajo; se regenera de la semilla)
+backend/data/properties.json
+# Feedback del inquilino y perfiles consultados (datos de uso local)
+backend/data/feedback.json
+
+# --- Node / frontend ---
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+.env
+.env.local
+.env*.local
+
+# --- Documentación generada (diagramas, SVG, redacción, diccionario) ---
+docs/
+# --- Entorno virtual local (alternativo al compose) ---
+# venv/ ya está ignorado arriba
+# --- Scripts auxiliares ---
+# (scripts/ se versiona: contiene dev.sh y build.sh)

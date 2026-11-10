@@ -1,0 +1,26 @@
+# Overrides de producción: sin bind mounts, con las etapas `prod` de cada
+# Dockerfile (uvicorn sin recarga y `next build` + `next start`).
+#
+#   ./scripts/build.sh --prod
+#   docker compose -f docker-compose.yml -f docker-compose.prod.yml up -d
+
+services:
+  backend:
+    build:
+      target: prod
+    # El código va dentro de la imagen: se quitan los mounts de desarrollo.
+    volumes: []
+    # En producción el backend no publica puertos al host: lo consume el BFF por
+    # la red interna del compose. Se deja expuesto solo para poder probarlo a mano.
+    restart: unless-stopped
+
+  frontend:
+    build:
+      target: prod
+    volumes: []
+    environment:
+      # `next start` escucha solo en localhost por defecto; dentro del contenedor
+      # hay que atarlo a 0.0.0.0 para que el proxy del host lo alcance.
+      HOSTNAME: "0.0.0.0"
+      BACKEND_URL: http://backend:8000
+    command: ["node", "server.js"]
