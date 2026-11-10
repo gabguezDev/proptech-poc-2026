@@ -31,3 +31,7 @@ docs/
 # venv/ ya está ignorado arriba
 # --- Scripts auxiliares ---
 # (scripts/ se versiona: contiene dev.sh y build.sh)
+
+# --- Guías locales para asistentes de IA (no se versionan) ---
+AGENTS.md
+frontend/AGENTS.md

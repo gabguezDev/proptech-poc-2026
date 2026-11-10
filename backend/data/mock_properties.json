@@ -1,0 +1,859 @@
+[
+  {
+    "id_inmueble": 101,
+    "precio": 230000,
+    "moneda": "ARS",
+    "moneda_a_convenir": false,
+    "expensas": {
+      "promedio_ultimos_3_meses": 42000,
+      "incluye": {
+        "agua_potable": true,
+        "gas": true,
+        "energia_electrica_espacios_comunes": true,
+        "energia_electrica_departamento": false,
+        "limpieza_espacios_comunes": true,
+        "mano_obra_mantenimiento": true,
+        "mantenimiento_ascensor": true,
+        "otros": [],
+        "guardia_camaras": false
+      }
+    },
+    "tipologia": "departamento",
+    "es_monoambiente": false,
+    "cantidad_habitaciones": 2,
+    "cantidad_banos": 1,
+    "cantidad_banos_en_suite": 1,
+    "piso": 3,
+    "orientacion": "contrafrente",
+    "tipo_unidad": "edificio",
+    "edificio": {
+      "tiene_ascensor": true,
+      "tiene_quincho": false,
+      "quincho_ubicacion": null,
+      "tiene_terraza": true,
+      "terraza_incluida_expensas": true,
+      "tiene_gimnasio": false,
+      "tiene_piscina": false,
+      "otros_amenities": [
+        "SUM",
+        "Salón de fiestas"
+      ]
+    },
+    "cocina_separada": true,
+    "living_separado": false,
+    "tiene_lavadero": true,
+    "lavadero_separado": true,
+    "balcon_ubicacion": "frente",
+    "espacio_home_office": true,
+    "acepta_mascotas": true,
+    "tiene_cochera": true,
+    "cochera_techada": true,
+    "lat": -27.472,
+    "lon": -58.832,
+    "proximidad": {
+      "distancia_quiosco_m": 120,
+      "distancia_autoservicio_m": 280,
+      "distancia_supermercado_m": 350,
+      "distancia_hipermercado_m": 1400,
+      "distancia_plaza_m": 200,
+      "distancia_parque_m": 700,
+      "distancia_escuela_m": 180,
+      "distancia_colegio_m": 320,
+      "distancia_instituto_terciario_m": 480,
+      "distancia_universidad_m": 650,
+      "distancia_caps_m": 250,
+      "distancia_hospital_m": 800,
+      "distancia_clinica_m": 600
+    },
+    "contrato": {
+      "duracion_meses": 24,
+      "duracion_a_convenir": false,
+      "frecuencia_aumento_meses": 6,
+      "indice_ajuste": "ICL",
+      "frecuencia_aumento_a_convenir": false
+    },
+    "garantias": {
+      "seguro_caucion": true,
+      "garantia_a_propietario": false,
+      "garantia_a_propietario_reembolsable": null,
+      "titulo_propiedad": false
+    },
+    "pension": null
+  },
+  {
+    "id_inmueble": 102,
+    "precio": 280000,
+    "moneda": "ARS",
+    "moneda_a_convenir": false,
+    "expensas": {
+      "promedio_ultimos_3_meses": 65000,
+      "incluye": {
+        "agua_potable": true,
+        "gas": true,
+        "energia_electrica_espacios_comunes": true,
+        "energia_electrica_departamento": false,
+        "limpieza_espacios_comunes": true,
+        "mano_obra_mantenimiento": true,
+        "mantenimiento_ascensor": true,
+        "otros": [
+          "Pileta climatizada",
+          "SUM"
+        ],
+        "guardia_camaras": true
+      }
+    },
+    "tipologia": "departamento",
+    "es_monoambiente": false,
+    "cantidad_habitaciones": 3,
+    "cantidad_banos": 2,
+    "cantidad_banos_en_suite": 0,
+    "piso": 8,
+    "orientacion": "frente",
+    "tipo_unidad": "edificio",
+    "edificio": {
+      "tiene_ascensor": true,
+      "tiene_quincho": true,
+      "quincho_ubicacion": "terraza",
+      "tiene_terraza": true,
+      "terraza_incluida_expensas": true,
+      "tiene_gimnasio": true,
+      "tiene_piscina": true,
+      "otros_amenities": [
+        "Salón de fiestas",
+        "Bicicletero",
+        "Pileta climatizada"
+      ]
+    },
+    "cocina_separada": true,
+    "living_separado": true,
+    "tiene_lavadero": false,
+    "lavadero_separado": false,
+    "balcon_ubicacion": "ambos",
+    "espacio_home_office": true,
+    "acepta_mascotas": true,
+    "tiene_cochera": true,
+    "cochera_techada": true,
+    "lat": -27.47,
+    "lon": -58.831,
+    "proximidad": {
+      "distancia_quiosco_m": 80,
+      "distancia_autoservicio_m": 150,
+      "distancia_supermercado_m": 250,
+      "distancia_hipermercado_m": 900,
+      "distancia_plaza_m": 150,
+      "distancia_parque_m": 350,
+      "distancia_escuela_m": 100,
+      "distancia_colegio_m": 200,
+      "distancia_instituto_terciario_m": 300,
+      "distancia_universidad_m": 400,
+      "distancia_caps_m": 180,
+      "distancia_hospital_m": 450,
+      "distancia_clinica_m": 300
+    },
+    "contrato": {
+      "duracion_meses": 36,
+      "duracion_a_convenir": false,
+      "frecuencia_aumento_meses": 12,
+      "indice_ajuste": "IPC",
+      "frecuencia_aumento_a_convenir": false
+    },
+    "garantias": {
+      "seguro_caucion": false,
+      "garantia_a_propietario": false,
+      "garantia_a_propietario_reembolsable": null,
+      "titulo_propiedad": true
+    },
+    "pension": null
+  },
+  {
+    "id_inmueble": 103,
+    "precio": 210000,
+    "moneda": "ARS",
+    "moneda_a_convenir": true,
+    "expensas": {
+      "promedio_ultimos_3_meses": 18000,
+      "incluye": {
+        "agua_potable": true,
+        "gas": true,
+        "energia_electrica_espacios_comunes": true,
+        "energia_electrica_departamento": false,
+        "limpieza_espacios_comunes": true,
+        "mano_obra_mantenimiento": false,
+        "mantenimiento_ascensor": false,
+        "otros": [],
+        "guardia_camaras": false
+      }
+    },
+    "tipologia": "departamento",
+    "es_monoambiente": false,
+    "cantidad_habitaciones": 1,
+    "cantidad_banos": 1,
+    "cantidad_banos_en_suite": 0,
+    "piso": 1,
+    "orientacion": "contrafrente",
+    "tipo_unidad": "interno",
+    "edificio": {
+      "tiene_ascensor": false,
+      "tiene_quincho": false,
+      "quincho_ubicacion": null,
+      "tiene_terraza": false,
+      "terraza_incluida_expensas": false,
+      "tiene_gimnasio": false,
+      "tiene_piscina": false,
+      "otros_amenities": []
+    },
+    "cocina_separada": false,
+    "living_separado": false,
+    "tiene_lavadero": true,
+    "lavadero_separado": false,
+    "balcon_ubicacion": "no_tiene",
+    "espacio_home_office": false,
+    "acepta_mascotas": false,
+    "tiene_cochera": true,
+    "cochera_techada": false,
+    "lat": -27.48,
+    "lon": -58.84,
+    "proximidad": {
+      "distancia_quiosco_m": 300,
+      "distancia_autoservicio_m": 650,
+      "distancia_supermercado_m": 450,
+      "distancia_hipermercado_m": 2000,
+      "distancia_plaza_m": 900,
+      "distancia_parque_m": 1500,
+      "distancia_escuela_m": 250,
+      "distancia_colegio_m": 400,
+      "distancia_instituto_terciario_m": 1200,
+      "distancia_universidad_m": 1800,
+      "distancia_caps_m": 400,
+      "distancia_hospital_m": 1500,
+      "distancia_clinica_m": 1300
+    },
+    "contrato": {
+      "duracion_meses": null,
+      "duracion_a_convenir": true,
+      "frecuencia_aumento_meses": 3,
+      "indice_ajuste": "propietario",
+      "frecuencia_aumento_a_convenir": true
+    },
+    "garantias": {
+      "seguro_caucion": false,
+      "garantia_a_propietario": true,
+      "garantia_a_propietario_reembolsable": true,
+      "titulo_propiedad": false
+    },
+    "pension": null
+  },
+  {
+    "id_inmueble": 104,
+    "precio": 245000,
+    "moneda": "ARS",
+    "moneda_a_convenir": false,
+    "expensas": {
+      "promedio_ultimos_3_meses": 50000,
+      "incluye": {
+        "agua_potable": true,
+        "gas": true,
+        "energia_electrica_espacios_comunes": true,
+        "energia_electrica_departamento": true,
+        "limpieza_espacios_comunes": true,
+        "mano_obra_mantenimiento": true,
+        "mantenimiento_ascensor": true,
+        "otros": [
+          "Pileta climatizada",
+          "SUM",
+          "Gimnasio"
+        ],
+        "guardia_camaras": true
+      }
+    },
+    "tipologia": "departamento",
+    "es_monoambiente": false,
+    "cantidad_habitaciones": 2,
+    "cantidad_banos": 2,
+    "cantidad_banos_en_suite": 1,
+    "piso": 5,
+    "orientacion": "contrafrente",
+    "tipo_unidad": "edificio",
+    "edificio": {
+      "tiene_ascensor": true,
+      "tiene_quincho": true,
+      "quincho_ubicacion": "terraza",
+      "tiene_terraza": true,
+      "terraza_incluida_expensas": true,
+      "tiene_gimnasio": true,
+      "tiene_piscina": true,
+      "otros_amenities": [
+        "Salón de fiestas",
+        "SUM",
+        "Pileta climatizada",
+        "Lavandería"
+      ]
+    },
+    "cocina_separada": true,
+    "living_separado": true,
+    "tiene_lavadero": true,
+    "lavadero_separado": true,
+    "balcon_ubicacion": "ambos",
+    "espacio_home_office": true,
+    "acepta_mascotas": true,
+    "tiene_cochera": true,
+    "cochera_techada": true,
+    "lat": -27.468,
+    "lon": -58.829,
+    "proximidad": {
+      "distancia_quiosco_m": 100,
+      "distancia_autoservicio_m": 200,
+      "distancia_supermercado_m": 300,
+      "distancia_hipermercado_m": 800,
+      "distancia_plaza_m": 250,
+      "distancia_parque_m": 300,
+      "distancia_escuela_m": 150,
+      "distancia_colegio_m": 280,
+      "distancia_instituto_terciario_m": 350,
+      "distancia_universidad_m": 450,
+      "distancia_caps_m": 200,
+      "distancia_hospital_m": 500,
+      "distancia_clinica_m": 350
+    },
+    "contrato": {
+      "duracion_meses": 24,
+      "duracion_a_convenir": false,
+      "frecuencia_aumento_meses": 6,
+      "indice_ajuste": "ICL",
+      "frecuencia_aumento_a_convenir": false
+    },
+    "garantias": {
+      "seguro_caucion": true,
+      "garantia_a_propietario": false,
+      "garantia_a_propietario_reembolsable": null,
+      "titulo_propiedad": false
+    },
+    "pension": null
+  },
+  {
+    "id_inmueble": 105,
+    "precio": 190000,
+    "moneda": "ARS",
+    "moneda_a_convenir": false,
+    "expensas": {
+      "promedio_ultimos_3_meses": 15000,
+      "incluye": {
+        "agua_potable": true,
+        "gas": true,
+        "energia_electrica_espacios_comunes": true,
+        "energia_electrica_departamento": false,
+        "limpieza_espacios_comunes": true,
+        "mano_obra_mantenimiento": false,
+        "mantenimiento_ascensor": false,
+        "otros": [],
+        "guardia_camaras": false
+      }
+    },
+    "tipologia": "monoambiente",
+    "es_monoambiente": true,
+    "cantidad_habitaciones": 0,
+    "cantidad_banos": 1,
+    "cantidad_banos_en_suite": 0,
+    "piso": 0,
+    "orientacion": "frente",
+    "tipo_unidad": "interno",
+    "edificio": {
+      "tiene_ascensor": false,
+      "tiene_quincho": false,
+      "quincho_ubicacion": null,
+      "tiene_terraza": false,
+      "terraza_incluida_expensas": false,
+      "tiene_gimnasio": false,
+      "tiene_piscina": false,
+      "otros_amenities": []
+    },
+    "cocina_separada": false,
+    "living_separado": false,
+    "tiene_lavadero": false,
+    "lavadero_separado": false,
+    "balcon_ubicacion": "frente",
+    "espacio_home_office": false,
+    "acepta_mascotas": true,
+    "tiene_cochera": false,
+    "cochera_techada": false,
+    "lat": -27.475,
+    "lon": -58.835,
+    "proximidad": {
+      "distancia_quiosco_m": 200,
+      "distancia_autoservicio_m": 350,
+      "distancia_supermercado_m": 700,
+      "distancia_hipermercado_m": 1600,
+      "distancia_plaza_m": 400,
+      "distancia_parque_m": 1100,
+      "distancia_escuela_m": 300,
+      "distancia_colegio_m": 450,
+      "distancia_instituto_terciario_m": 900,
+      "distancia_universidad_m": 1500,
+      "distancia_caps_m": 350,
+      "distancia_hospital_m": 1100,
+      "distancia_clinica_m": 900
+    },
+    "contrato": {
+      "duracion_meses": null,
+      "duracion_a_convenir": true,
+      "frecuencia_aumento_meses": 3,
+      "indice_ajuste": "propietario",
+      "frecuencia_aumento_a_convenir": true
+    },
+    "garantias": {
+      "seguro_caucion": false,
+      "garantia_a_propietario": false,
+      "garantia_a_propietario_reembolsable": null,
+      "titulo_propiedad": true
+    },
+    "pension": null
+  },
+  {
+    "id_inmueble": 106,
+    "precio": 250000,
+    "moneda": "ARS",
+    "moneda_a_convenir": false,
+    "expensas": {
+      "promedio_ultimos_3_meses": 38000,
+      "incluye": {
+        "agua_potable": true,
+        "gas": true,
+        "energia_electrica_espacios_comunes": true,
+        "energia_electrica_departamento": false,
+        "limpieza_espacios_comunes": true,
+        "mano_obra_mantenimiento": true,
+        "mantenimiento_ascensor": true,
+        "otros": [],
+        "guardia_camaras": false
+      }
+    },
+    "tipologia": "departamento",
+    "es_monoambiente": false,
+    "cantidad_habitaciones": 2,
+    "cantidad_banos": 1,
+    "cantidad_banos_en_suite": 0,
+    "piso": 2,
+    "orientacion": "contrafrente",
+    "tipo_unidad": "edificio",
+    "edificio": {
+      "tiene_ascensor": true,
+      "tiene_quincho": false,
+      "quincho_ubicacion": null,
+      "tiene_terraza": true,
+      "terraza_incluida_expensas": true,
+      "tiene_gimnasio": false,
+      "tiene_piscina": false,
+      "otros_amenities": [
+        "Bicicletero"
+      ]
+    },
+    "cocina_separada": true,
+    "living_separado": false,
+    "tiene_lavadero": false,
+    "lavadero_separado": false,
+    "balcon_ubicacion": "frente",
+    "espacio_home_office": true,
+    "acepta_mascotas": true,
+    "tiene_cochera": true,
+    "cochera_techada": true,
+    "lat": -27.465,
+    "lon": -58.825,
+    "proximidad": {
+      "distancia_quiosco_m": 180,
+      "distancia_autoservicio_m": 320,
+      "distancia_supermercado_m": 400,
+      "distancia_hipermercado_m": 1300,
+      "distancia_plaza_m": 350,
+      "distancia_parque_m": 800,
+      "distancia_escuela_m": 220,
+      "distancia_colegio_m": 380,
+      "distancia_instituto_terciario_m": 550,
+      "distancia_universidad_m": 750,
+      "distancia_caps_m": 300,
+      "distancia_hospital_m": 700,
+      "distancia_clinica_m": 550
+    },
+    "contrato": {
+      "duracion_meses": 24,
+      "duracion_a_convenir": false,
+      "frecuencia_aumento_meses": 6,
+      "indice_ajuste": "IPC",
+      "frecuencia_aumento_a_convenir": false
+    },
+    "garantias": {
+      "seguro_caucion": true,
+      "garantia_a_propietario": false,
+      "garantia_a_propietario_reembolsable": null,
+      "titulo_propiedad": false
+    },
+    "pension": null
+  },
+  {
+    "id_inmueble": 107,
+    "precio": 220000,
+    "moneda": "ARS",
+    "moneda_a_convenir": true,
+    "expensas": {
+      "promedio_ultimos_3_meses": 30000,
+      "incluye": {
+        "agua_potable": true,
+        "gas": true,
+        "energia_electrica_espacios_comunes": true,
+        "energia_electrica_departamento": false,
+        "limpieza_espacios_comunes": true,
+        "mano_obra_mantenimiento": true,
+        "mantenimiento_ascensor": true,
+        "otros": [],
+        "guardia_camaras": true
+      }
+    },
+    "tipologia": "departamento",
+    "es_monoambiente": false,
+    "cantidad_habitaciones": 2,
+    "cantidad_banos": 1,
+    "cantidad_banos_en_suite": 1,
+    "piso": 10,
+    "orientacion": "contrafrente",
+    "tipo_unidad": "edificio",
+    "edificio": {
+      "tiene_ascensor": true,
+      "tiene_quincho": true,
+      "quincho_ubicacion": "planta_baja",
+      "tiene_terraza": true,
+      "terraza_incluida_expensas": false,
+      "tiene_gimnasio": false,
+      "tiene_piscina": false,
+      "otros_amenities": [
+        "SUM"
+      ]
+    },
+    "cocina_separada": true,
+    "living_separado": true,
+    "tiene_lavadero": true,
+    "lavadero_separado": true,
+    "balcon_ubicacion": "no_tiene",
+    "espacio_home_office": false,
+    "acepta_mascotas": true,
+    "tiene_cochera": true,
+    "cochera_techada": true,
+    "lat": -27.51,
+    "lon": -58.88,
+    "proximidad": {
+      "distancia_quiosco_m": 900,
+      "distancia_autoservicio_m": 1200,
+      "distancia_supermercado_m": 1000,
+      "distancia_hipermercado_m": 1800,
+      "distancia_plaza_m": 1400,
+      "distancia_parque_m": 300,
+      "distancia_escuela_m": 600,
+      "distancia_colegio_m": 850,
+      "distancia_instituto_terciario_m": 1500,
+      "distancia_universidad_m": 2200,
+      "distancia_caps_m": 750,
+      "distancia_hospital_m": 2000,
+      "distancia_clinica_m": 1800
+    },
+    "contrato": {
+      "duracion_meses": 24,
+      "duracion_a_convenir": false,
+      "frecuencia_aumento_meses": 6,
+      "indice_ajuste": "ICL",
+      "frecuencia_aumento_a_convenir": false
+    },
+    "garantias": {
+      "seguro_caucion": true,
+      "garantia_a_propietario": false,
+      "garantia_a_propietario_reembolsable": null,
+      "titulo_propiedad": false
+    },
+    "pension": null
+  },
+  {
+    "id_inmueble": 108,
+    "precio": 235000,
+    "moneda": "ARS",
+    "moneda_a_convenir": false,
+    "expensas": {
+      "promedio_ultimos_3_meses": 45000,
+      "incluye": {
+        "agua_potable": true,
+        "gas": true,
+        "energia_electrica_espacios_comunes": true,
+        "energia_electrica_departamento": false,
+        "limpieza_espacios_comunes": true,
+        "mano_obra_mantenimiento": true,
+        "mantenimiento_ascensor": true,
+        "otros": [],
+        "guardia_camaras": true
+      }
+    },
+    "tipologia": "departamento",
+    "es_monoambiente": false,
+    "cantidad_habitaciones": 2,
+    "cantidad_banos": 1,
+    "cantidad_banos_en_suite": 0,
+    "piso": 4,
+    "orientacion": "contrafrente",
+    "tipo_unidad": "edificio",
+    "edificio": {
+      "tiene_ascensor": true,
+      "tiene_quincho": false,
+      "quincho_ubicacion": null,
+      "tiene_terraza": true,
+      "terraza_incluida_expensas": true,
+      "tiene_gimnasio": false,
+      "tiene_piscina": false,
+      "otros_amenities": [
+        "SUM",
+        "Salón de fiestas"
+      ]
+    },
+    "cocina_separada": true,
+    "living_separado": true,
+    "tiene_lavadero": true,
+    "lavadero_separado": false,
+    "balcon_ubicacion": "frente",
+    "espacio_home_office": true,
+    "acepta_mascotas": true,
+    "tiene_cochera": true,
+    "cochera_techada": true,
+    "lat": -27.471,
+    "lon": -58.831,
+    "proximidad": {
+      "distancia_quiosco_m": 150,
+      "distancia_autoservicio_m": 250,
+      "distancia_supermercado_m": 350,
+      "distancia_hipermercado_m": 1100,
+      "distancia_plaza_m": 280,
+      "distancia_parque_m": 320,
+      "distancia_escuela_m": 200,
+      "distancia_colegio_m": 300,
+      "distancia_instituto_terciario_m": 420,
+      "distancia_universidad_m": 500,
+      "distancia_caps_m": 280,
+      "distancia_hospital_m": 650,
+      "distancia_clinica_m": 500
+    },
+    "contrato": {
+      "duracion_meses": 24,
+      "duracion_a_convenir": false,
+      "frecuencia_aumento_meses": 6,
+      "indice_ajuste": "ICL",
+      "frecuencia_aumento_a_convenir": false
+    },
+    "garantias": {
+      "seguro_caucion": true,
+      "garantia_a_propietario": false,
+      "garantia_a_propietario_reembolsable": null,
+      "titulo_propiedad": false
+    },
+    "pension": null
+  },
+  {
+    "id_inmueble": 109,
+    "precio": 120000,
+    "moneda": "ARS",
+    "moneda_a_convenir": false,
+    "expensas": {
+      "promedio_ultimos_3_meses": 8000,
+      "incluye": {
+        "agua_potable": true,
+        "gas": true,
+        "energia_electrica_espacios_comunes": true,
+        "energia_electrica_departamento": false,
+        "limpieza_espacios_comunes": true,
+        "mano_obra_mantenimiento": false,
+        "mantenimiento_ascensor": false,
+        "otros": [
+          "WiFi",
+          "Ropa de cama"
+        ],
+        "guardia_camaras": false
+      }
+    },
+    "tipologia": "pension",
+    "es_monoambiente": false,
+    "cantidad_habitaciones": 1,
+    "cantidad_banos": 1,
+    "cantidad_banos_en_suite": 0,
+    "piso": 0,
+    "orientacion": "frente",
+    "tipo_unidad": "interno",
+    "edificio": {
+      "tiene_ascensor": false,
+      "tiene_quincho": false,
+      "quincho_ubicacion": null,
+      "tiene_terraza": false,
+      "terraza_incluida_expensas": false,
+      "tiene_gimnasio": false,
+      "tiene_piscina": false,
+      "otros_amenities": []
+    },
+    "cocina_separada": false,
+    "living_separado": false,
+    "tiene_lavadero": true,
+    "lavadero_separado": false,
+    "balcon_ubicacion": "no_tiene",
+    "espacio_home_office": false,
+    "acepta_mascotas": false,
+    "tiene_cochera": false,
+    "cochera_techada": false,
+    "lat": -27.474,
+    "lon": -58.834,
+    "proximidad": {
+      "distancia_quiosco_m": 150,
+      "distancia_autoservicio_m": 300,
+      "distancia_supermercado_m": 400,
+      "distancia_hipermercado_m": 1500,
+      "distancia_plaza_m": 300,
+      "distancia_parque_m": 600,
+      "distancia_escuela_m": 250,
+      "distancia_colegio_m": 350,
+      "distancia_instituto_terciario_m": 500,
+      "distancia_universidad_m": 550,
+      "distancia_caps_m": 300,
+      "distancia_hospital_m": 900,
+      "distancia_clinica_m": 700
+    },
+    "contrato": {
+      "duracion_meses": 6,
+      "duracion_a_convenir": true,
+      "frecuencia_aumento_meses": 3,
+      "indice_ajuste": "propietario",
+      "frecuencia_aumento_a_convenir": true
+    },
+    "garantias": {
+      "seguro_caucion": true,
+      "garantia_a_propietario": false,
+      "garantia_a_propietario_reembolsable": null,
+      "titulo_propiedad": false
+    },
+    "pension": {
+      "bano_compartido": true,
+      "cocina_compartida": true,
+      "comedor_compartido": true,
+      "lavadero_compartido": true,
+      "otros_espacios_compartidos": [
+        "patio"
+      ]
+    }
+  },
+  {
+    "id_inmueble": 110,
+    "precio": 320,
+    "moneda": "USD",
+    "moneda_a_convenir": false,
+    "expensas": {
+      "promedio_ultimos_3_meses": 12000,
+      "incluye": {
+        "agua_potable": true,
+        "gas": true,
+        "energia_electrica_espacios_comunes": true,
+        "energia_electrica_departamento": false,
+        "limpieza_espacios_comunes": true,
+        "mano_obra_mantenimiento": false,
+        "mantenimiento_ascensor": false,
+        "otros": [
+          "WiFi",
+          "Desayuno"
+        ],
+        "guardia_camaras": false
+      }
+    },
+    "tipologia": "pension",
+    "es_monoambiente": false,
+    "cantidad_habitaciones": 1,
+    "cantidad_banos": 1,
+    "cantidad_banos_en_suite": 1,
+    "piso": 1,
+    "orientacion": "contrafrente",
+    "tipo_unidad": "interno",
+    "edificio": {
+      "tiene_ascensor": false,
+      "tiene_quincho": false,
+      "quincho_ubicacion": null,
+      "tiene_terraza": false,
+      "terraza_incluida_expensas": false,
+      "tiene_gimnasio": false,
+      "tiene_piscina": false,
+      "otros_amenities": []
+    },
+    "cocina_separada": false,
+    "living_separado": false,
+    "tiene_lavadero": true,
+    "lavadero_separado": false,
+    "balcon_ubicacion": "contrafrente",
+    "espacio_home_office": true,
+    "acepta_mascotas": false,
+    "tiene_cochera": false,
+    "cochera_techada": false,
+    "lat": -27.466,
+    "lon": -58.828,
+    "proximidad": {
+      "distancia_quiosco_m": 120,
+      "distancia_autoservicio_m": 220,
+      "distancia_supermercado_m": 300,
+      "distancia_hipermercado_m": 1000,
+      "distancia_plaza_m": 250,
+      "distancia_parque_m": 400,
+      "distancia_escuela_m": 200,
+      "distancia_colegio_m": 300,
+      "distancia_instituto_terciario_m": 380,
+      "distancia_universidad_m": 420,
+      "distancia_caps_m": 200,
+      "distancia_hospital_m": 600,
+      "distancia_clinica_m": 450
+    },
+    "contrato": {
+      "duracion_meses": 12,
+      "duracion_a_convenir": true,
+      "frecuencia_aumento_meses": 6,
+      "indice_ajuste": "propietario",
+      "frecuencia_aumento_a_convenir": true
+    },
+    "garantias": {
+      "seguro_caucion": true,
+      "garantia_a_propietario": false,
+      "garantia_a_propietario_reembolsable": null,
+      "titulo_propiedad": false
+    },
+    "pension": {
+      "bano_compartido": false,
+      "cocina_compartida": true,
+      "comedor_compartido": true,
+      "lavadero_compartido": true,
+      "otros_espacios_compartidos": []
+    }
+  },
+  {
+    "id_inmueble": 111,
+    "precio": 210000,
+    "moneda": "ARS",
+    "moneda_a_convenir": false,
+    "expensas": null,
+    "tipologia": "departamento",
+    "es_monoambiente": false,
+    "cantidad_habitaciones": 2,
+    "cantidad_banos": 1,
+    "cantidad_banos_en_suite": 0,
+    "piso": 2,
+    "orientacion": "contrafrente",
+    "tipo_unidad": "edificio",
+    "edificio": null,
+    "cocina_separada": true,
+    "living_separado": false,
+    "tiene_lavadero": true,
+    "lavadero_separado": false,
+    "balcon_ubicacion": "no_tiene",
+    "espacio_home_office": false,
+    "acepta_mascotas": true,
+    "tiene_cochera": false,
+    "cochera_techada": false,
+    "lat": -27.47,
+    "lon": -58.829,
+    "proximidad": null,
+    "contrato": null,
+    "garantias": null,
+    "pension": null
+  }
+]
